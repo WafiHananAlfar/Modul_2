@@ -1,0 +1,28 @@
+nav {
+    backgorund: #C9BFBF;
+    grid-area: nav; }
+header {
+    backgorund: #707070;
+    grid-area: header;
+    text-align: center; }
+section {
+    backgorund: #ABABAB;
+    grid-area: section; }
+footer {
+    backgorund: #707070;
+    grid-area: footer;
+    font-size: small;
+    text-align: center; }
+body {
+    display:grid;
+    grid-template-areas;
+    "header header header"
+    "nav section section"
+    "footer footer footer";
+    grid-template-rows; 80px 1fr 50px;
+    grid-template-colums: 20% 1fr 18%;
+    grid-grap: 5px;
+    height: 100vh;
+    margin: 10px; }
+header, nav, section, footer {
+    padding: 5px; }
